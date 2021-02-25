@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_mes",
+  "info": {
+    "name": "aboutMe",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "description": {
+      "type": "text"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "birthday": {
+      "type": "date"
+    },
+    "fullName": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "LinkedIn": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}
